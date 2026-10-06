@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Andro Mahesha Aprian</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-6xl mx-auto px-5 py-4 flex items-center justify-between">
+
+            <h2 class="text-xl font-bold text-gray-900">
+                PORTOFOLIO
+            </h2>
+
+            <button
+                id="menuButton"
+                class="md:hidden text-2xl"
+            >
+                ☰
+            </button>
+
+            <ul
+                id="navMenu"
+                class="
+                    hidden
+                    md:flex
+                    flex-col
+                    md:flex-row
+                    absolute
+                    md:static
+                    top-full
+                    left-0
+                    w-full
+                    md:w-auto
+                    bg-white
+                    md:bg-transparent
+                    shadow-md
+                    md:shadow-none
+                    text-center
+                "
+            >
+                <li>
+                    <a href="#home" class="block px-5 py-4 md:py-0 hover:text-blue-600 transition">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#about" class="block px-5 py-4 md:py-0 hover:text-blue-600 transition">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#skills" class="block px-5 py-4 md:py-0 hover:text-blue-600 transition">
+                        Skills
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#projects" class="block px-5 py-4 md:py-0 hover:text-blue-600 transition">
+                        Projects
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact" class="block px-5 py-4 md:py-0 hover:text-blue-600 transition">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <section
+            id="home"
+            class="relative min-h-[90vh] overflow-hidden flex items-center"
+        >
+            <div
+                class="absolute inset-0 bg-cover bg-center"
+                style="background-image: url('curren.jpg');"
+            ></div>
+
+            <div class="absolute inset-0 bg-black/60"></div>
+
+            <div
+                class="
+                    relative
+                    z-10
+                    max-w-6xl
+                    mx-auto
+                    w-full
+                    px-5
+                    py-16
+                    flex
+                    flex-col-reverse
+                    md:flex-row
+                    items-center
+                    justify-between
+                    gap-12
+                "
+            >
+
+                <div class="text-white text-center md:text-left max-w-2xl">
+
+                    <p class="text-lg mb-2 text-gray-200">
+                        Hello, I'm
+                    </p>
+
+                    <h1 class="text-4xl md:text-5xl font-bold mb-4">
+                        Andro Mahesha Aprian
+                    </h1>
+
+                    <h3 class="text-xl md:text-2xl font-semibold mb-5">
+                        Informatics Student
+                    </h3>
+
+                    <p class="text-gray-200 leading-relaxed mb-8">
+                        Saya adalah mahasiswa Informatika yang tertarik
+                        dengan programming, cybersecurity, dan game development.
+                    </p>
+
+                    <a
+                        href="#projects"
+                        class="
+                            inline-block
+                            bg-blue-600
+                            hover:bg-blue-700
+                            text-white
+                            px-6
+                            py-3
+                            rounded-lg
+                            transition
+                        "
+                    >
+                        Lihat Project
+                    </a>
+
+                </div>
+
+                <div class="relative z-20">
+                    <img
+                        src="curren.jpg"
+                        alt="Foto profil"
+                        class="
+                            w-48
+                            h-48
+                            md:w-60
+                            md:h-60
+                            rounded-full
+                            object-cover
+                            border-4
+                            border-white
+                            shadow-2xl
+                            opacity-100
+                        "
+                    >
+                </div>
+
+            </div>
+        </section>
+
+        <section id="about" class="py-20 px-5">
+
+            <div class="max-w-5xl mx-auto">
+
+                <h2 class="text-3xl font-bold text-center mb-8">
+                    About Me
+                </h2>
+
+                <div class="bg-white p-6 md:p-8 rounded-xl shadow-sm">
+
+                    <p class="text-gray-600 leading-relaxed">
+                        Saya merupakan mahasiswa Informatika yang memiliki
+                        ketertarikan pada pengembangan software, cybersecurity,
+                        dan teknologi. Saya senang mempelajari berbagai bahasa
+                        pemrograman serta membuat project untuk meningkatkan
+                        kemampuan saya.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="skills" class="py-20 px-5 bg-white">
+
+            <div class="max-w-6xl mx-auto">
+
+                <h2 class="text-3xl font-bold text-center mb-10">
+                    Skills
+                </h2>
+
+                <div
+                    class="
+                        grid
+                        grid-cols-2
+                        md:grid-cols-3
+                        lg:grid-cols-5
+                        gap-4
+                    "
+                >
+
+                    <div class="bg-gray-100 p-5 rounded-xl text-center shadow-sm">C++</div>
+                    <div class="bg-gray-100 p-5 rounded-xl text-center shadow-sm">C#</div>
+                    <div class="bg-gray-100 p-5 rounded-xl text-center shadow-sm">C</div>
+                    <div class="bg-gray-100 p-5 rounded-xl text-center shadow-sm">Python</div>
+                    <div class="bg-gray-100 p-5 rounded-xl text-center shadow-sm">Rust</div>
+                    <div class="bg-gray-100 p-5 rounded-xl text-center shadow-sm">GO</div>
+                    <div class="bg-gray-100 p-5 rounded-xl text-center shadow-sm">JavaScript</div>
+                    <div class="bg-gray-100 p-5 rounded-xl text-center shadow-sm">Git</div>
+                    <div class="bg-gray-100 p-5 rounded-xl text-center shadow-sm">Reverse Engineering</div>
+                    <div class="bg-gray-100 p-5 rounded-xl text-center shadow-sm">Digital Forensic</div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="projects" class="py-20 px-5">
+
+            <div class="max-w-6xl mx-auto">
+
+                <h2 class="text-3xl font-bold text-center mb-10">
+                    Projects
+                </h2>
+
+                <div
+                    class="
+                        grid
+                        grid-cols-1
+                        md:grid-cols-2
+                        lg:grid-cols-3
+                        gap-6
+                    "
+                >
+
+                    <div
+                        class="
+                            bg-white
+                            p-6
+                            rounded-xl
+                            shadow-md
+                            hover:-translate-y-1
+                            transition
+                        "
+                    >
+                        <h3 class="text-xl font-bold mb-3">
+                            Controller SDVX
+                        </h3>
+
+                        <p class="text-gray-600 mb-5">
+                            Kontroller sebuah game arcade sdvx berbasis arduino
+                        </p>
+
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">
+                                Arduino
+                            </span>
+
+                            <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                                IoT
+                            </span>
+                        </div>
+                    </div>
+
+                    <div
+                        class="
+                            bg-white
+                            p-6
+                            rounded-xl
+                            shadow-md
+                            hover:-translate-y-1
+                            transition
+                        "
+                    >
+                        <h3 class="text-xl font-bold mb-3">
+                            Chunithm Controller
+                        </h3>
+
+                        <p class="text-gray-600 mb-5">
+                            Kontroller game arcade Chunithm berbasis websocket
+                            memakai Rust, tauri + Svelte, rusb
+                        </p>
+
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm">
+                                Rust
+                            </span>
+
+                            <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                                IoT
+                            </span>
+                        </div>
+                    </div>
+
+                    <div
+                        class="
+                            bg-white
+                            p-6
+                            rounded-xl
+                            shadow-md
+                            hover:-translate-y-1
+                            transition
+                        "
+                    >
+                        <h3 class="text-xl font-bold mb-3">
+                            Cybersecurity Lab
+                        </h3>
+
+                        <p class="text-gray-600 mb-5">
+                            Eksperimen keamanan jaringan dan monitoring
+                            menggunakan Graylog, Wazuh, dan berbagai
+                            tools cybersecurity.
+                        </p>
+
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm">
+                                Wazuh
+                            </span>
+
+                            <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">
+                                Graylog
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section
+            id="contact"
+            class="py-20 px-5 bg-white mb-20"
+        >
+
+            <div class="max-w-5xl mx-auto">
+
+                <h2 class="text-3xl font-bold text-center mb-3">
+                    Contact
+                </h2>
+
+                <p class="text-gray-600 text-center mb-10">
+                    Jika ingin menghubungi saya, silakan melalui:
+                </p>
+
+                <div
+                    class="
+                        grid
+                        grid-cols-1
+                        md:grid-cols-2
+                        gap-5
+                    "
+                >
+
+                    <a
+                        href="mailto:loidk814@gmail.com"
+                        class="
+                            flex
+                            items-center
+                            gap-4
+                            p-5
+                            bg-gray-100
+                            rounded-xl
+                            hover:-translate-y-1
+                            hover:shadow-md
+                            transition
+                        "
+                    >
+                        <i class="fa-solid fa-envelope text-3xl"></i>
+
+                        <div>
+                            <strong class="block">Email</strong>
+                            <span class="text-sm text-gray-500">
+                                loidk814@gmail.com
+                            </span>
+                        </div>
+                    </a>
+
+                    <a
+                        href="https://instagram.com/androf.23"
+                        target="_blank"
+                        class="
+                            flex
+                            items-center
+                            gap-4
+                            p-5
+                            bg-gray-100
+                            rounded-xl
+                            hover:-translate-y-1
+                            hover:shadow-md
+                            transition
+                        "
+                    >
+                        <i class="fa-brands fa-instagram text-3xl"></i>
+
+                        <div>
+                            <strong class="block">Instagram</strong>
+                            <span class="text-sm text-gray-500">
+                                @androf.23
+                            </span>
+                        </div>
+                    </a>
+
+                    <a
+                        href="https://linkedin.com/in/andromaheshaaprian"
+                        target="_blank"
+                        class="
+                            flex
+                            items-center
+                            gap-4
+                            p-5
+                            bg-gray-100
+                            rounded-xl
+                            hover:-translate-y-1
+                            hover:shadow-md
+                            transition
+                        "
+                    >
+                        <i class="fa-brands fa-linkedin text-3xl"></i>
+
+                        <div>
+                            <strong class="block">LinkedIn</strong>
+                            <span class="text-sm text-gray-500">
+                                linkedin.com/in/andromaheshaaprian
+                            </span>
+                        </div>
+                    </a>
+
+                    <a
+                        href="https://github.com/Loidk"
+                        target="_blank"
+                        class="
+                            flex
+                            items-center
+                            gap-4
+                            p-5
+                            bg-gray-100
+                            rounded-xl
+                            hover:-translate-y-1
+                            hover:shadow-md
+                            transition
+                        "
+                    >
+                        <i class="fa-brands fa-github text-3xl"></i>
+
+                        <div>
+                            <strong class="block">GitHub</strong>
+                            <span class="text-sm text-gray-500">
+                                github.com/Loidk
+                            </span>
+                        </div>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-900 text-white py-6 text-center">
+        <p>
+            © 2026 Andro Mahesha Aprian.
+        </p>
+    </footer>
+
+    <script>
+        const menuButton = document.getElementById("menuButton");
+        const navMenu = document.getElementById("navMenu");
+
+        menuButton.addEventListener("click", function () {
+            navMenu.classList.toggle("hidden");
+        });
+
+        const navLinks = navMenu.querySelectorAll("a");
+
+        navLinks.forEach(function (link) {
+            link.addEventListener("click", function () {
+                if (window.innerWidth < 768) {
+                    navMenu.classList.add("hidden");
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
